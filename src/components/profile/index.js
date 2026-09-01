@@ -29,7 +29,7 @@ export default function UserProfile({user}){
     console.log("photocolection",photosCollection)
     return (
         <>
-        
+            
             <PHeader photosCount={photosCollection ? photosCollection.length :0}
                     profile={profile}
                     followerCount={followerCount}
